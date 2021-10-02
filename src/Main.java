@@ -3,9 +3,6 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-
-        int zmiennaInt = 7;
-        System.out.println("zmienna int = " + zmiennaInt);
         /* ćw.2 */
 
         /*   zad.1 zadeklaruj i zainicjalizuj zmienne różnych typów i wyświetl w konsoli (im więcej tym lepiej ;) ) */
@@ -16,6 +13,16 @@ public class Main {
         *    a) liczbaA i liczbaB, dowolne liczby calkowite (int),
         *    b) liczbaX i liczbaY, dowolne liczby zmiennoprzecinkowe (double)
         *  */
+
+        String name = "Karolinka";
+        byte wiek = 8;
+        int ulLiczba = 5678;
+        double numer = 7839.8987654387329;
+        boolean like = true;
+        System.out.print(name + "\n" + wiek + "\n" + ulLiczba + "\n"+ numer + "\n"+ like);
+
+
+
 
 
 
