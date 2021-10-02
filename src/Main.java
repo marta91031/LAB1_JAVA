@@ -34,5 +34,15 @@ public class Main {
         *   wynik wyświetlić w konsoli programu
         */
 
+        int x = 5;
+        int y = 10;
+        int suma = x + y;
+        int roznica = x - y;
+        int iloraz = y/x;
+        int iloczyn = x*y;
+        int modulo = y%x;
+
+        System.out.printf("\n\nSuma: %d\nRóżnica: %d\nIloraz: %d\nIloczyn: %d\nModulo: %d",suma,roznica,iloraz,iloczyn,modulo);
+
     }
 }
