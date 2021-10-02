@@ -20,7 +20,7 @@ public class Main {
         System.out.println((c||d) && (a&&b));
         System.out.println(d==b);
         System.out.println(a!=b&&b==d);
-        System.out.println((e>f)&&(g>f));
+        System.out.println((e<f)&&(g<f));
 
     }
 }
